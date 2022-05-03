@@ -1,0 +1,17 @@
+body {	
+       background-image: url("ab.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment:fixed;
+	color:green;  }
+h1 {	letter-spacing:5px;
+	text-align:center;
+   text-decoration:underline;    }
+h2 {	letter-spacing:-3px;
+	text-decoration:line-through; }
+p.small {  line-height:0.7;  }
+p.big {  line-height:1.8;
+            text-decoration:overline;  }
+ul.c {list-style-type:circle; }
+ul.c li {  color: red; }
+ol.b {	list-style-type:upper-roman; }

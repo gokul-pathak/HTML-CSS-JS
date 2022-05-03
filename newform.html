@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>
+        Using HTML form</title>
+    </title>
+</head>
+<body>
+
+    <h1>
+        HTML form example
+    </h1>
+    <form action="insert.html" method="post">
+        First name: <input type="text" name="first_name"required><br/> <br/>
+        Last name: <input type="text" name="last_name"required><br/> <br/>
+        Enter a phone number: <br/><input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern"[0-9]{3}-[0-9]{2}-[0-9]{3}"><br/><br/>
+        <small>Format: 123-45-678</small><br/><br/>
+        Email:<br/>
+        <input type="email" id="email" name="email"><br/><br/>
+        Description:<br/>
+        <textarea row="6" cols="50" name="description">
+            Enter Description here....
+        </textarea><br/><br/>
+        select file: <input type="file" name="uploadfile"><br/><br/>
+        Gender: <input type="radio" name="gender" vaule="M"> Male
+        <input type="radio" Name="gender" value="F"> Female
+        <br/> <br/>
+        Applied Level: 
+        <select>
+            <option value="secondary"> Secondary</option>
+            <option value="HigherSecondary"> HigherSecondary</option>
+            <option value="Bachelor"> Bachelor</option>
+            <option value="Master"> Master</option>
+        </select>
+        <br/> <br/>
+        Courses:
+        <input type="checkbox" name="course" value="c">C
+        <input type="checkbox" name="course" value="WebDesigning">Fundamental of Web Designing
+        <input type="checkbox" name="course" value="programming">c# programming
+        <br/><br/>
+        Date of Birth:
+        <br/>
+        <input type="date" id="dob" name="dob">
+        <br/><br/>
+        Username:<br>
+        <input type="text" id="username" name="username">
+        <br/><br/>
+        Password:<br/>
+        <input type="password" id="pwd" name="pwd">
+        <br/><br/>
+        <button type="submit" value="submit" onclick="alert('submitting values')"Submit'onclick="alert('submitting values')">submit form</button>
+        <input type="reset" id="reset" name="reset">
+        <button type="reset" name="res">Cancel</button>
+        </form>
+</body>
+
+
+
+
+
+</html>

@@ -1,0 +1,50 @@
+<!doctype html>
+
+<head>
+    <title> Javascript pratical of while loop</title>
+</head>
+
+<body>
+    <p>Displaying loop example</p>
+    <script>
+        var grade = prompt("Enter Marks from 1 to 10");
+        var result;
+        switch (true) {
+            case (grade >= 80):
+                result = "A grade";
+                break;
+            case (grade >= 60):
+                result = "B grade";
+                break;
+            case (grade >= 40):
+                break;
+            default:
+                result = "No grade";
+        }
+        document.write(result);
+        if (grade >= 60) {
+            document.write("<br> Grade is good");
+        } else {
+            document.write("<br> Grade is not good");
+        }
+        count = 0;
+        breakline = "<br>";
+        document.write(breakline);
+        document.write("Displaying even number" + breakline)
+        while (count <= 10) {
+            if (count <= 10) {
+                document.write(count + breakline);
+            }
+            count++;
+        }
+        var mul;
+        var a = prompt("Enter any number");
+        document.write("Displaying multiplication table using for loop" + breakline);
+        for (i = 1; i <= 10; i++) {
+            mul = a * i;
+            document.write(a + "x" + i + "=" + mul + breakline)
+        }
+    </script>
+</body>
+
+</html>
